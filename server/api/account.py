@@ -1,5 +1,5 @@
 from flask import jsonify, request
-from config import connectAccounts
+from api.config import connectAccounts
 from flask_cors import cross_origin
 
 @cross_origin(origin="http://127.0.0.1:5173")

@@ -1,6 +1,4 @@
-import sys
 from flask import Flask
-sys.path.append('api')
 from api.account import *
 
 app = Flask(__name__)
